@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-Website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <header id="hdrPart">
+      <div class="leftLogo">
+        <img src="Images/logo.jpg" alt="My_portfolio_logo" />
+      </div>
+      <!-- logo end -->
+      <nav class="primaryNavigation">
+        <ul>
+          <li><a href="#whoIam"> Home </a></li>
+          <li><a href="#aboutMe"> About </a></li>
+          <li><a href="#services"> Project </a></li>
+          <li><a href="#contact"> Contact </a></li>
+        </ul>
+      </nav>
+      <!-- menuBar end -->
+    </header>
+    <!-- header area end -->
+
+    <!-- Section (who i'm) start -->
+    <section id="whoIam">
+      <div
+        id="leftIam"
+        data-aos="fade-right"
+        data-aos-delay="600"
+        data-aos-duration="800"
+      >
+        <h2>
+          <span>Hi</span>,<br />
+          I'm Kent Ivan Amora
+        </h2>
+        <p>I'am a Digital Artist...</p>
+        <button class="btnAbout">Hire Me</button>
+      </div>
+      <div
+        id="rightIam"
+        data-aos="fade-left"
+        data-aos-delay="600"
+        data-aos-duration="800"
+      >
+        <img src="Images/profile.jpg" alt="A web developer" />
+      </div>
+    </section>
+    <!-- Section (who i'm) end-->
+    <!-- Section (about) start -->
+    <section id="aboutMe">
+      <div
+        class="leftAbout"
+        data-aos="fade-right"
+        data-aos-delay="600"
+        data-aos-duration="800"
+      >
+        <img src="Images/profile.jpg" alt="Mahmud_Khan" />
+      </div>
+      <div
+        class="rightAbout"
+        data-aos="fade-left"
+        data-aos-delay="600"
+        data-aos-duration="800"
+      >
+        <h3>About Me</h3>
+        <p>
+          I am Kent Ivan D. Amora. A 19 year old aspiring Digital Artist hoping
+          to one day work in the industry. I'm currently enrolled in an IT
+          related course for my college degree. I also love to play videogames
+          as a hobby and listen to music while doing work. I hope this website
+          lets you know a little something about me.
+        </p>
+      </div>
+    </section>
+    <!-- Section (about) end -->
+
+    <!-- Section (projects) start-->
+    <section id="services">
+      <div
+        class="serviceHeading"
+        data-aos="fade-down"
+        data-aos-delay="600"
+        data-aos-duration="800"
+      >
+        <h2>My Project</h2>
+        <p>
+          These are some of my art works. check out my Instagram if you want to see more.
+        </p>
+      </div>
+      <div class="fullService">
+        <div
+          class="servicePart"
+          data-aos="zoom-in"
+          data-aos-delay="300"
+          data-aos-duration="900"
+          style="background-image: url('Images/p1.jpg')"
+        ></div>
+        <div
+          class="servicePart"
+          data-aos="zoom-in"
+          data-aos-delay="400"
+          data-aos-duration="900"
+          style="background-image: url('Images/p2.jpg')"
+        ></div>
+        <div
+          class="servicePart"
+          data-aos="zoom-in"
+          data-aos-delay="500"
+          data-aos-duration="900"
+          style="background-image: url('Images/p3.jpg')"
+        ></div>
+        <div
+          class="servicePart"
+          data-aos="zoom-in"
+          data-aos-delay="600"
+          data-aos-duration="900"
+          style="background-image: url('Images/p4.jpg')"
+        ></div>
+        <div
+          class="servicePart"
+          data-aos="zoom-in"
+          data-aos-delay="700"
+          data-aos-duration="900"
+          style="background-image: url('Images/p5.gif')"
+        ></div>
+        <div
+          class="servicePart"
+          data-aos="zoom-in"
+          data-aos-delay="800"
+          data-aos-duration="900"
+          style="background-image: url('Images/p6.jpg')"
+        ></div>
+      </div>
+    </section>
+    <!-- Section (projects) end-->
+
+    <!-- Contact Section start -->
+    <section class="fullContact" id="contact">
+      <div
+        class="leftContact"
+        data-aos="fade-right"
+        data-aos-delay="600"
+        data-aos-duration="900"
+      >
+        <h2>Contact Me</h2>
+        <p>
+          Here is my contact information if you want to send me a message
+        </p>
+        <div class="contactForm">
+          <form action="#">
+            <input
+              type="text"
+              placeholder="Your Name...*"
+              required="required"
+            />
+            <input
+              type="text"
+              placeholder="Your Email...*"
+              required="required"
+            />
+            <input type="text" placeholder="Subject..." />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="7"
+              placeholder="Messages..."
+            ></textarea>
+            <input type="submit" value="Send Messages" class="contactBtn" />
+          </form>
+        </div>
+      </div>
+      <div
+        class="rightContact"
+        data-aos="fade-left"
+        data-aos-delay="600"
+        data-aos-duration="900"
+      >
+        <img src="Images/profile.jpg" alt="my image" />
+      </div>
+    </section>
+    <!-- Contact Section end -->
+    <!-- footer start -->
+    <footer class="footer">
+      <p class="footer__title">For more Infromation, vist my socail media accounts</p>
+      <div class="footer__social">
+        <a href="https://www.facebook.com/profile.php?id=100092474737502&mibextid=ZbWKwL" target="_blank" class="footer__icon"
+          ><i class="bx bxl-facebook-circle"></i
+        ></a>
+        <a href="https://www.instagram.com/its.kent_arts?igshid=NGVhN2U2NjQ0Yg==" target="_blank" class="footer__icon"><i class="bx bxl-instagram-alt"></i></a>
+        <a href="https://github.com/KentIvanAmora-IT3A" target="_blank" class="footer__icon"><i class="bx bxl-github"></i></a>
+        <a href="" class="footer__icon"><i class="bx bxs-envelope"></i></a>
+      </div>
+      <p class="footer__copy">&#169; Kent Ivan. All rigths reserved</p>
+    </footer>
+    <!-- footer end -->
+    <!-- font awesome fonts kit code -->
+    <script
+      src="https://kit.fontawesome.com/103f1a749e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

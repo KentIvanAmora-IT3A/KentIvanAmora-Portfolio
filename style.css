@@ -1,0 +1,325 @@
+* {
+  margin: auto;
+}html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* Hearder area start */
+#hdrPart {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  box-shadow: 0px 0px 3px 2px #efececcf;
+  width: 100%;
+  min-height: 85px;
+  padding: 10px 0;
+}
+.leftLogo {
+  width: 25%;
+  float: left;
+}
+.primaryNavigation {
+  width: 58%;
+  float: right;
+  padding-right: 57px;
+}
+.primaryNavigation > ul {
+  float: right;
+  padding-right: 30px;
+}
+.primaryNavigation > ul > li {
+  display: inline-block;
+}
+.primaryNavigation > ul > li > a {
+  display: block;
+  text-decoration: none;
+  color: rgb(36, 33, 33);
+  line-height: 50px;
+  padding: 13px 23px;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: sans-serif;
+  transition: 1s;
+}
+.primaryNavigation > ul > li > a:hover {
+  color: #7adb74;
+}
+.primaryNavigation > ul > li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: #7adb74;
+  display: block;
+  transition: 0.5s;
+}
+.primaryNavigation > ul > li:hover::after {
+  width: 100%;
+}
+.leftLogo img {
+  border-radius: 50%;
+  width: 23%;
+  float: left;
+  padding-left: 76px;
+  padding-top: 0px;
+  height: 81px;
+}
+/* Header area end */
+/* Section (who i'm) start */
+section#whoIam {
+  height: 80vh;
+  margin-top: 80px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#leftIam {
+  padding-top: 100px;
+  width: 40%;
+  float: left;
+  padding-left: 52px;
+  margin-left: 32px;
+}
+
+div#rightIam {
+  width: 35%;
+  float: right;
+  padding-right: 100px;
+  padding-top: 50px;
+}
+div#rightIam img {
+  height: 461px;
+  float: left;
+  border-left: 10px solid #7adb74;
+  border-top: 10px solid #7adb74;
+  border-radius: 50%;
+  
+}
+div#leftIam > p {
+  padding: 10px 0px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #7adb74;
+}
+
+
+div#leftIam > h2 > span {
+  color: #7adb74;
+}
+
+div#leftIam > h2 {
+  font-size: 50px;
+}
+/* Section (who i'm) end */
+
+/* Section (about) start */
+section#aboutMe {
+  overflow: hidden;
+  width: 100%;
+  background: #f5f6f8;
+}
+
+.leftAbout {
+  width: 45%;
+  float: left;
+  padding-left: 52px;
+}
+
+.rightAbout {
+  width: 40%;
+  float: right;
+  margin-top: 70px;
+  padding-right: 87px;
+}
+
+.leftAbout > img {
+  width: 69%;
+  height: 461px;
+  float: left;
+  margin: 37px 37px 37px 37px;
+  border-left: 10px solid #7adb74;
+  border-top: 10px solid #7adb74;
+}
+.rightAbout > h3 {
+  font-size: 40px;
+  padding: 30px 0px;
+}
+
+.rightAbout > p {
+  line-height: 30px;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+button.btnAbout {
+  background: #7adb74;
+  color: #ffffff;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+  margin-right: 40px;
+  font-size: 20px;
+  margin-top: 25px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+button.btnAbout:hover {
+  background-color: #ffffff;
+  color: #7adb74;
+  border: 2px solid #7adb74;
+}
+/* Section (about) ends */
+
+/* Section (services) start*/
+.serviceHeading {
+  clear: both;
+  margin-top: 40px;
+  text-align: center;
+  width: 475px;
+}
+.serviceHeading > h2 {
+  font-size: 50px;
+}
+
+.serviceHeading > p {
+  margin-top: 15px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.fullService {
+  overflow: hidden;
+  width: 94%;
+}
+
+.servicePart{
+  width: 27%;
+  float: left;
+  text-align: center;
+  margin: 22px;
+  box-shadow: 2px 2px 5px 1px #828282;
+  border-radius: 5px;
+  margin-left: 52px;
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  height: 220px; 
+}
+.servicePart:hover{
+   transform: scale(1.05);
+   transition: ease-out 1s;
+}
+.servicePart > i {
+  font-size: 50px;
+  margin: 25px;
+  background: #e4e4e4;
+  padding: 15px;
+  border-radius: 50%;
+  color: #7adb74;
+}
+
+.servicePart > p {
+  padding: 20px;
+  line-height: 23px;
+}
+
+section.fullContact {
+  margin-top: 50px;
+  overflow: hidden;
+  padding: 55px 0px;
+}
+
+.leftContact {
+  width: 40%;
+  float: left;
+  padding-left: 87px;
+}
+
+.rightContact {
+  width: 45%;
+  float: right;
+  padding-right: 87px;
+}
+.leftContact > h2 {
+  font-size: 35px;
+  color: #001149;
+  padding-bottom: 20px;
+}
+
+.leftContact > p {
+  text-align: justify;
+  line-height: 25px;
+  padding-bottom: 20px;
+  font-family: sans-serif;
+}
+.contactForm > form > input,
+.contactForm > form > textarea {
+ 
+  display: block;
+  width: 65%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 2px solid #7abd74;
+  border-radius: 5px;
+  outline: none;
+}
+textarea {
+  resize: none;
+}
+form > .contactBtn {
+  background: #7adb74;
+  color: white;
+  width: 155px !important;
+  font-size: 17px;
+  padding: 15px 0px !important;
+  border: none !important;
+  margin-top: 40px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+input.contactBtn:hover {
+  background: white;
+  border: 2px solid #7adb74 !important;
+  color: #7adb74;
+}
+.rightContact > img {
+  width: 69%;
+  height: 495px;
+  box-shadow: 0px 0px 3px 2px #efececcf;
+  border-radius: 5px;
+  float: right;
+}
+div#rightIam > img {
+  width: 100%;
+}
+/* contact section end */
+
+/* footer start */
+.footer {
+  background-color: whitesmoke;
+  color: black;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.footer__title {
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.footer__social {
+  margin-bottom: 15px;
+}
+
+.footer__icon {
+  font-size: 1.5rem;
+  color: grey;
+  margin: 0 10px;
+}
+
+.footer__copy {
+  font-size: 15px;
+}
+
